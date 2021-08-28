@@ -425,6 +425,17 @@ section .title::after{
 .projects{
     background-color: #C9ECB5;
 }
+.projects .card-img-top{
+    height: 350px;
+}
+.projects .card:hover{
+    background-color:crimson;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
 /*icons*/
 .fa,
 .fas,
