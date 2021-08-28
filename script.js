@@ -14,3 +14,8 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 });
+
+function clicked(e)
+{
+    alert("Your message has been received, I will reach out to you. Thank you.")
+}
