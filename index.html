@@ -14,26 +14,49 @@
    
     <body>
         
-            <nav class = "navbar">
-                <div class = "max-width">
-                    <div class="logo"><a href="#">Ann<span>Portfolio.</span></a></div>
-                    <ul class = "menu">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href = "#about">About</a></li>
-                        <li><a href = "#services">Services</a></li>
-                        <li><a href = "#projects">Projects</a></li>
-                        <li><a href = "#contacts">Contacts</a></li>
-                    </ul>
-                    <div class = "menu-btn">
-                        <i class="fas fa-bars"></i>
-                    </div>
-                </div>
+            <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            
+            <div class="logo"><a href= "#home">Annalis<span>Portfolio</span></a></div>
+
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <nav class = "navbar">
+                <ul class="menu">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#projects">Projects</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contacts">Contact</a>
+                    </li>
+                </ul>
+                
             </nav>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
             <section class = "home" id = "home">
                 <div class = "max-width">
                     <div class = "home-content">
                         <div class = "text-1">Hi there</div>
-                        <div class = "text-2"> I am <span>Annalis Kirwa</span> , a Software Engineer</div>
+                        <div class = "text-3"> I am <span>Annalis Kirwa</span> </div>
+                        <div class = "text-3"> a Software Engineer</div>
                         <div class = "text-3"> I love to create beautiful and efficient web applications</div>
                         <a href = "#about">Know Me</a>
                         <a href = "#contacts">Contact Me</a>
@@ -234,7 +257,7 @@
 
     </section>
 
-    <section class="contact" id="contact">
+    <section class="contact" id="contacts">
         <div class="max-width">
             <h2 class="title">Contact me</h2>
             <div class="contact-content">
