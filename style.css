@@ -244,21 +244,32 @@ section .title::after{
 .about .about-content .right p{
     text-align: justify;
 }
-.about .about-content .right .cv a{
+.about .about-content .right a{
     display: inline-block;
-    background: crimson;
-    color: #fff;
+    color:blue;
     font-size: 20px;
     font-weight: 500;
+    text-decoration: none;
+}
+.about .about-content .right #cv{
+    display: inline-block;
+    color:white;
+    background: crimson;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.about .about-content .right a:hover{
+.about .about-content .right #cv:hover{
     color: crimson;
     background: none;
+}
+.about .about-content .right a:hover{
+    color:crimson;
 }
 
 
