@@ -111,6 +111,8 @@ section .title::after{
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+   justify-self: flex-end;
+    
 }
 .navbar .menu li a{
     display: block;
@@ -119,6 +121,7 @@ section .title::after{
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+    
 }
 .navbar .menu li a:hover{
     color: crimson;
@@ -212,6 +215,9 @@ section .title::after{
 }
 
 /* about section styling */
+.about{
+    background-color:  #C9ECB5;
+}
 .about .title::after{
     content: "who i am";
 }
