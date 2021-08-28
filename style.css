@@ -276,6 +276,19 @@ section .title::after{
     color:crimson;
     text-align: center;
 }
+.about .card-body .card-title:hover{
+    color: white;
+}
+.about .card-body{
+    background-color: silver;
+}
+.about .card-body:hover{
+    background-color:crimson;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
 
 /* contact section styling */
 .contact .title::after{
@@ -379,7 +392,7 @@ section .title::after{
 }
 .basic-2 {
 	padding-top: 0px;
-	padding-bottom: 5.25rem;
+	padding-bottom:0px;
 }
 
 .basic-2 .h2-heading {
@@ -407,6 +420,10 @@ section .title::after{
 
 .basic-2 h4 {
 	letter-spacing: 1px;
+}
+/*Styling the project section*/
+.projects{
+    background-color: #C9ECB5;
 }
 /*icons*/
 .fa,
