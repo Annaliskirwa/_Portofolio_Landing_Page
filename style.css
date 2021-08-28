@@ -427,7 +427,41 @@ section .title::after{
     color: crimson;
     background: none;
 }
+/* styling service section*/
+.services .title::after{
+    content: "who i do";
+}
+.basic-2 {
+	padding-top: 0px;
+	padding-bottom: 5.25rem;
+}
 
+.basic-2 .h2-heading {
+	margin-bottom: 0.75rem;
+	text-align: center;
+}
+
+.basic-2 .p-heading {
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
+.basic-2 .text-box {
+	margin-bottom: 3rem;
+	padding: 3.5rem 1rem 2.125rem 1rem;
+	border: 1px solid #cfd7de;
+}
+
+.basic-2 .fas,
+.basic-2 .far {
+	margin-bottom: 1.75rem;
+	color: #0b36a8;
+	font-size: 3.5rem;
+}
+
+.basic-2 h4 {
+	letter-spacing: 1px;
+}
 /* footer section styling */
 footer{
     background: #111;
