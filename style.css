@@ -294,6 +294,12 @@ section .title::after{
 .contact .title::after{
     content: "get in touch";
 }
+.contact a{
+    text-decoration: none;
+}
+.contact a:hover{
+    color: crimson;
+}
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -428,14 +434,20 @@ section .title::after{
 .projects .card-img-top{
     height: 350px;
 }
-.projects .card:hover{
+.projects .card-text:hover{
     background-color:crimson;
     color: white;
     border-radius: 10px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-
+.projects .card a{
+   
+    text-decoration: none;
+}
+.projects .card a:hover{
+    color:crimson;
+}
 /*icons*/
 .fa,
 .fas,
