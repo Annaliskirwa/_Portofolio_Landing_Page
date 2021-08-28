@@ -99,6 +99,7 @@ section .title::after{
     color: #fff;
     font-size: 35px;
     font-weight: 600;
+    text-decoration: none;
 }
 .navbar .logo a span{
     color: crimson;
@@ -203,6 +204,7 @@ section .title::after{
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 .home .home-content a:hover{
     color: crimson;
