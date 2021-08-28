@@ -236,7 +236,7 @@ section .title::after{
 .about .about-content .right p{
     text-align: justify;
 }
-.about .about-content .right a{
+.about .about-content .right .cv a{
     display: inline-block;
     background: crimson;
     color: #fff;
