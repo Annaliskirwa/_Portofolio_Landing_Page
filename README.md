@@ -15,7 +15,9 @@ There are no known bugs at the moment. The porftolio was created for large scree
 ## Technologies Used  
 The portfolio was created using HTML for the structure of the page. CSS was used to style, better styles was enhanced by using Bootstrap. JavaScript was used to add interactivity to buttons and events.
 ## Support and contact details  
-Incase of any issue send an email with a screenshot of the issue to annaliskirwa@gmail.com. Anyone who wants to do a change to the outline of my page can just fork on my <a href = "https://github.com/Annaliskirwa/_Portofolio_Landing_Page">github repository</a>
+Incase of any issue send an email with a screenshot of the issue to annaliskirwa@gmail.com. Anyone who wants to do a change to the outline of my page can just fork on my <a href = "https://github.com/Annaliskirwa/_Portofolio_Landing_Page">github repository</a>  
+## Design  
+The project was designed using figma. Click on <a href = "https://www.figma.com/file/XZB9eHSXO0reB45vMOioaP/Portfolio?node-id=0%3A1"> link </a> to view the design
 ### License
 *MIT*  
 
