@@ -431,6 +431,11 @@ section .title::after{
 .projects{
     background-color: #C9ECB5;
 }
+.projects .card-title:hover{
+    color:black;
+    text-shadow: crimson;
+    font-size: xx-large;
+}
 .projects .card-img-top{
     height: 350px;
 }
