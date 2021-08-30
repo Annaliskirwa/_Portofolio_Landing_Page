@@ -17,7 +17,7 @@ The portfolio was created using HTML for the structure of the page. CSS was used
 ## Support and contact details  
 Incase of any issue send an email with a screenshot of the issue to annaliskirwa@gmail.com. Anyone who wants to do a change to the outline of my page can just fork on my <a href = "https://github.com/Annaliskirwa/_Portofolio_Landing_Page">github repository</a>  
 ## Design  
-The project was designed using figma. Click on <a href = "https://www.figma.com/file/XZB9eHSXO0reB45vMOioaP/Portfolio?node-id=0%3A1"> link </a> to view the design
+The project was designed using figma. Click on this <a href = "https://www.figma.com/file/XZB9eHSXO0reB45vMOioaP/Portfolio?node-id=0%3A1"> link </a> to view the design wireframes and this <a href = "https://www.figma.com/proto/XZB9eHSXO0reB45vMOioaP/Portfolio?node-id=7%3A17&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2">link</a> to view the prototype of the design.
 ### License
 *MIT*  
 
