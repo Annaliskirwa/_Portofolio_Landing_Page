@@ -92,7 +92,7 @@ section .title::after{
 }
 .navbar .max-width{
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: space-between;
 }
 .navbar .logo a{
@@ -108,6 +108,15 @@ section .title::after{
 .navbar.sticky .logo a span{
     color: #fff;
 }
+/*New navbar styling*/
+nav .navbar{
+    width: 100%;
+    padding-right: 0px;
+  }
+  .navbar-brand{
+    margin-right: 20%;
+    font-weight:800;
+  }
 .navbar .menu li{
     list-style: none;
     display: inline-block;
